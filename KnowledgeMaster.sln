@@ -1,8 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{B8A75C51-6FEA-4E18-89E0-EBD58295620F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{49D8EE0C-C842-4754-BCAD-EBF5A12EF651}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{35A1DAA1-F1FF-4AA3-BEC9-ACC72B6B5B10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnowledgeMaster.DomainEntities", "src\KnowledgeMaster.DomainEntities\KnowledgeMaster.DomainEntities.csproj", "{190D2FC9-F1C5-4724-B30E-13322DF8C938}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{190D2FC9-F1C5-4724-B30E-13322DF8C938} = {49D8EE0C-C842-4754-BCAD-EBF5A12EF651}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{190D2FC9-F1C5-4724-B30E-13322DF8C938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{190D2FC9-F1C5-4724-B30E-13322DF8C938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{190D2FC9-F1C5-4724-B30E-13322DF8C938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{190D2FC9-F1C5-4724-B30E-13322DF8C938}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
