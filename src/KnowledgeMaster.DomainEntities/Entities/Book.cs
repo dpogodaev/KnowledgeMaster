@@ -57,7 +57,7 @@ public class Book : IUniqueEntity<Guid>
     public int? Edition { get; set; }
 
     /// <summary>
-    /// Rating.
+    /// Reviews.
     /// </summary>
-    public int? Rating { get; set; }
+    public ICollection<Review> Reviews { get; set; }
 }

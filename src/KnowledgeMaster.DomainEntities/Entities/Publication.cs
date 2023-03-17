@@ -36,6 +36,11 @@ public class Publication : IUniqueEntity<Guid>
     public string Url { get; set; }
 
     /// <summary>
+    /// Text.
+    /// </summary>
+    public string? Text { get; set; }
+
+    /// <summary>
     /// Authors.
     /// </summary>
     public IEnumerable<Person> Authors { get; set; }
